@@ -24,7 +24,7 @@ body {
 body .blog {
   max-width: 1170px;
   min-height: 100vh;
-  background-color: #fff;
+  background-color: rgba(239,239,239,0.5);
   margin: 0 auto;
 }
 body .blog .content {
