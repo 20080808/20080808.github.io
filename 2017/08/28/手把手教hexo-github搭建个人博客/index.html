@@ -10,8 +10,8 @@
   
 
   
-  <meta name="description" content="趁着手热，就整理一下关于hexo整合github服务器上个人博客的搭建。首先，先来了解下hexo。Hexo 是一个快速、简洁且高效的博客框架。Hexo 使用 Markdown（或其他渲染引擎）解析文章，在几秒内，即可利用靓丽的主题生成静态网页。详情文档Hexo
-##安装前提安装 Hexo 相当简单。">
+  <meta name="description" content="趁着手热，就整理一下关于hexo整合github服务器上个人博客的搭建。首先，先来了解下hexo。Hexo 是一个快速、简洁且高效的博客框架。Hexo 使用 Markdown（或其他渲染引擎）解析文章，在几秒内，即可利用靓丽的主题生成静态网页。详情文档 |Hexo
+1.安装前提安装 Hexo 相当简">
   
 
   
@@ -91,14 +91,19 @@
   <div class="article-content">
     <div class="entry">
       
-        <p>趁着手热，就整理一下关于hexo整合github服务器上个人博客的搭建。<br><br><br>首先，先来了解下hexo。Hexo 是一个快速、简洁且高效的博客框架。Hexo 使用 Markdown（或其他渲染引擎）解析文章，在几秒内，即可利用靓丽的主题生成静态网页。<br><br><br>详情文档<a href="https://hexo.io/" target="_blank" rel="external">Hexo</a><br><br></p>
-<p>##安装前提<br>安装 Hexo 相当简单。然而在安装前，您必须检查电脑中是否已安装下列应用程序：<br><br></p>
+        <p>趁着手热，就整理一下关于hexo整合github服务器上个人博客的搭建。<br>首先，先来了解下hexo。Hexo 是一个快速、简洁且高效的博客框架。Hexo 使用 Markdown（或其他渲染引擎）解析文章，在几秒内，即可利用靓丽的主题生成静态网页。<br>详情文档 |<a href="https://hexo.io/" target="_blank" rel="external">Hexo</a></p>
+<h2 id="1-安装前提"><a href="#1-安装前提" class="headerlink" title="1.安装前提"></a>1.安装前提</h2><p>安装 Hexo 相当简单。然而在安装前，您必须检查电脑中是否已安装下列应用程序：</p>
 <p><ul></ul></p>
 <p><li><a href="https://nodejs.org/en/" target="_blank" rel="external">Node.js</a></li></p>
-<p><li><a href="https://git-scm.com/" target="_blank" rel="external">Git</a></li><br><br><br><br>接下来只需要使用 npm 即可完成 Hexo 的安装。<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ npm install -g hexo-cli</div></pre></td></tr></table></figure></p>
-<p><br></p>
-<p>##建站<br>安装Hexo完成后，请执行下列命令，Hexo将会在指定文件夹中新建所需要的文件。</p>
-
+<p><li><a href="https://git-scm.com/" target="_blank" rel="external">Git</a></li><br><br>接下来只需要使用 npm 即可完成 Hexo 的安装。<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ npm install -g hexo-cli</div></pre></td></tr></table></figure></p>
+<h2 id="建站"><a href="#建站" class="headerlink" title="建站"></a>建站</h2><p>安装Hexo完成后，请执行下列命令，Hexo将会在指定文件夹中新建所需要的文件。注意：在这个地方的时候，推荐用Git Bash进行指令的操作。</p>
+<h2 id="指令"><a href="#指令" class="headerlink" title="指令"></a>指令</h2><p>1.init指令：新建一个网站。如果没有设置 folder ，Hexo 默认在目前的文件夹建立网站。<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo init [folder]</div></pre></td></tr></table></figure></p>
+<img src="/img/png-1.png">
+<p>图中在E盘下建立一个hexo的文件夹。<br><img src="/img/png-2.png"><br>图中在E盘下成功建立一个hexo的文件夹。<br>2.generate指令：生成静态文件。<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo generate</div></pre></td></tr></table></figure></p>
+<p>3.server指令：启动服务器。默认情况下，访问网址为： <a href="http://localhost:4000/。" target="_blank" rel="external">http://localhost:4000/。</a><br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo server</div></pre></td></tr></table></figure></p>
+<img src="/img/png-3.png">
+<p>图中就是成功了，本地能够运行起来。<br><br></p>
+<h2 id="2-github服务器搭建hexo"><a href="#2-github服务器搭建hexo" class="headerlink" title="2.github服务器搭建hexo"></a>2.github服务器搭建hexo</h2>
       
     </div>
 
